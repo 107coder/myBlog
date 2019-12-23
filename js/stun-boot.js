@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  Stun.utils.showThemeInConsole();
   CONFIG.shortcuts.switch_post && Stun.utils.registerHotkeyToSwitchPost();
 
   // Not reload this, because it's changeless.
@@ -7,15 +8,15 @@ $(document).ready(function () {
   }
 
   Stun.utils.pjaxReloadBoot = function () {
-    this.initTocDisplay();
-    this.addCopyButtonToCopyright();
+    this.addCopyButton();
     this.registerCopyEvent();
+
     CONFIG.reward && this.registerShowReward();
-    CONFIG.gallery_waterfall && this.showImageToWaterfall();
     CONFIG.lazyload && this.lazyLoadImage();
+    CONFIG.gallery_waterfall && this.showImageToWaterfall();
 
     if (CONFIG.external_link) {
-      var WRAPPER = '.archive-inner, .post-title';
+      var WRAPPER = '.archive, .post-header-title';
 
       this.addIconToExternalLink(WRAPPER);
     }
