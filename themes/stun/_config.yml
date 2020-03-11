@@ -183,13 +183,13 @@ footer:
     version: true
   # Beian icp information for Chinese users. see: http://www.miitbeian.gov.cn/
   beian:
-    enable: false
+    enable: true
     # 备案 XXXXXXXX 号
-    icp:
+    icp: 备案号：<a href="http://www.beian.miit.gov.cn/" target="_blank">豫ICP备19005492号</a>
   # Any custom text (e.g. Hosted by <a href="https://pages.github.com/" rel="noopener" target="_blank">Github Pages</a>).
   custom:
     enable: false
-    text:
+    text: <a href="http://www.beian.miit.gov.cn/" rel="noopener" target="_blank">工信部</a>
 
 # ---------------------------------------------------------------
 # Sidebar config
