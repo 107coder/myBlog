@@ -441,7 +441,7 @@ td {
 .header-inner {
   width: 100%;
   font-size: 18px;
-  height: 80vh;
+  height: 70vh;
 }
 .header-nav {
   position: fixed;
@@ -1717,6 +1717,14 @@ td {
 .friends-plugin__item-info__intro {
   font-size: 0.9em;
   color: #999;
+}
+.busuanzi-site_uv,
+.busuanzi-site_pv {
+  color: #f4f5f5;
+}
+.busuanzi-site_uv i,
+.busuanzi-site_pv i {
+  margin: 0 0.3rem 0 0;
 }
 @media (min-width: 1341.98px) {
   .header-nav-inner {

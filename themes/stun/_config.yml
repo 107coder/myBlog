@@ -88,7 +88,7 @@ pwa:
 
 header:
   # Header height (Support for all types of CSS size units).
-  height: 80%
+  height: 70%
   # Header navigation bar height (Support for all types of CSS size units).
   nav_height: 50px
   # Background image in the header.
@@ -476,7 +476,7 @@ utterances:
 # Busuanzi statistics
 # See: https://busuanzi.ibruce.info/
 busuanzi:
-  enable: false
+  enable: true
   # Only show by icon.
   icon_only: false
   # Number of unique visitor to the entire site.
